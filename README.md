@@ -5,5 +5,35 @@ Content:
 - SpringBoot based project for a sample java MqttProducer and MqttConsumer (made using SpringIntegration and Paho)
 - Slides used in the talk
 
+# EMQTT - Docker Container
+Download EMQ 2.x Docker Image:
+
+`http://emqtt.com/downloads/latest/docker`
+
+Unzip emqttd-docker image:
+
+`unzip emqttd-docker-v2.x.zip`
+
+Load Docker Image:
+
+`docker load < emqttd-docker-v2.x`
+
+Run the Container:
+
+`docker run -tid --name emq20 -p 1883:1883 -p 8083:8083 -p 8883:8883 -p 8084:8084 -p 18083:18083 emqttd-docker-v2.x`
+
+Stop the broker:
+
+`docker stop emq20`
+
+Start the broker:
+
+`docker start emq20`
+
+Enter the running container:
+
+`docker exec -it emq20 /bin/sh`
+
+
 # Slides
 https://docs.google.com/presentation/d/1yL-rsKbpufACk4YNTtDUxt5HGxMetLDs0Jr-ZrOSZRs/edit?usp=sharing
