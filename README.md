@@ -43,3 +43,9 @@ The samples in the project have been built using Spring Boot 2.x and Spring (Int
 
 # Slides
 https://docs.google.com/presentation/d/1yL-rsKbpufACk4YNTtDUxt5HGxMetLDs0Jr-ZrOSZRs/edit?usp=sharing
+
+# References
+- https://www.hivemq.com/mqtt-essentials/
+- http://emqtt.io/
+- http://mqtt.org/
+- https://github.com/devinhaughey/mqtt-client
