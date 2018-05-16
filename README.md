@@ -35,9 +35,10 @@ Enter the running container:
 `docker exec -it emq20 /bin/sh`
 
 # SpringBoot code
-- MqttProducer - contains the basic configuration for a producer using the Paho mqtt client within a Spring Boot Integration app
-- MqttSubscriber - same as above for a subscriber
-- MqttDemoConstants - configurations for the host, QoS, topic from the demo
+The samples in the project have been built using Spring Boot 2.x and Spring (Integration) 5.x
+- **MqttProducer** - contains the basic configuration for a producer using the Paho mqtt client within a Spring Boot Integration app
+- **MqttSubscriber** - same as above for a subscriber
+- **MqttDemoConstants** - configurations for the host, QoS, topic from the demo
 
 
 # Slides
